@@ -13,6 +13,30 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+//    enum Login : UInt8 {
+//        case Reader = 1
+//        case Reporter
+//        case Blogger
+//        case Admin
+//        
+//        init(userType: UInt8) {
+//            switch userType {
+//            case 1:
+//                self = .Reader
+//            case 2:
+//                self = .Reporter
+//            case 3:
+//                self = .Blogger
+//            case 4:
+//                self = .Admin
+//            default:
+//                self = .Reader
+//            }
+//            
+//        }
+//    }
+
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

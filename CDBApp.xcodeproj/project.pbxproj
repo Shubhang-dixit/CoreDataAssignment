@@ -15,6 +15,14 @@
 		2168DEA91F5D5BA7009BDCCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2168DEA71F5D5BA7009BDCCB /* LaunchScreen.storyboard */; };
 		2168DEB41F5D5BA7009BDCCB /* CDBAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DEB31F5D5BA7009BDCCB /* CDBAppTests.swift */; };
 		2168DEBF1F5D5BA7009BDCCB /* CDBAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DEBE1F5D5BA7009BDCCB /* CDBAppUITests.swift */; };
+		2168DED81F5D738C009BDCCB /* UserMO+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DED41F5D738C009BDCCB /* UserMO+CoreDataClass.swift */; };
+		2168DED91F5D738C009BDCCB /* UserMO+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DED51F5D738C009BDCCB /* UserMO+CoreDataProperties.swift */; };
+		2168DEDA1F5D738C009BDCCB /* Article+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DED61F5D738C009BDCCB /* Article+CoreDataClass.swift */; };
+		2168DEDB1F5D738C009BDCCB /* Article+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DED71F5D738C009BDCCB /* Article+CoreDataProperties.swift */; };
+		2168DEDD1F5D7993009BDCCB /* EntryTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DEDC1F5D7993009BDCCB /* EntryTabViewController.swift */; };
+		2168DEDF1F5D79CF009BDCCB /* UserInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DEDE1F5D79CF009BDCCB /* UserInputViewController.swift */; };
+		2168DEE11F5D79E2009BDCCB /* ArticleInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DEE01F5D79E2009BDCCB /* ArticleInputViewController.swift */; };
+		2168DEE31F5D83D8009BDCCB /* FetchDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2168DEE21F5D83D8009BDCCB /* FetchDataViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		2168DEBA1F5D5BA7009BDCCB /* CDBAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CDBAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2168DEBE1F5D5BA7009BDCCB /* CDBAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDBAppUITests.swift; sourceTree = "<group>"; };
 		2168DEC01F5D5BA7009BDCCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2168DED41F5D738C009BDCCB /* UserMO+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserMO+CoreDataClass.swift"; path = "../UserMO+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2168DED51F5D738C009BDCCB /* UserMO+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UserMO+CoreDataProperties.swift"; path = "../UserMO+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2168DED61F5D738C009BDCCB /* Article+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataClass.swift"; path = "../Article+CoreDataClass.swift"; sourceTree = "<group>"; };
+		2168DED71F5D738C009BDCCB /* Article+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Article+CoreDataProperties.swift"; path = "../Article+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2168DEDC1F5D7993009BDCCB /* EntryTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryTabViewController.swift; sourceTree = "<group>"; };
+		2168DEDE1F5D79CF009BDCCB /* UserInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInputViewController.swift; sourceTree = "<group>"; };
+		2168DEE01F5D79E2009BDCCB /* ArticleInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleInputViewController.swift; sourceTree = "<group>"; };
+		2168DEE21F5D83D8009BDCCB /* FetchDataViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchDataViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +117,15 @@
 			children = (
 				2168DE9B1F5D5BA7009BDCCB /* AppDelegate.swift */,
 				2168DE9D1F5D5BA7009BDCCB /* ViewController.swift */,
+				2168DED41F5D738C009BDCCB /* UserMO+CoreDataClass.swift */,
+				2168DED51F5D738C009BDCCB /* UserMO+CoreDataProperties.swift */,
+				2168DED61F5D738C009BDCCB /* Article+CoreDataClass.swift */,
+				2168DED71F5D738C009BDCCB /* Article+CoreDataProperties.swift */,
 				2168DE9F1F5D5BA7009BDCCB /* Main.storyboard */,
+				2168DEE21F5D83D8009BDCCB /* FetchDataViewController.swift */,
+				2168DEDE1F5D79CF009BDCCB /* UserInputViewController.swift */,
+				2168DEE01F5D79E2009BDCCB /* ArticleInputViewController.swift */,
+				2168DEDC1F5D7993009BDCCB /* EntryTabViewController.swift */,
 				2168DEA51F5D5BA7009BDCCB /* Assets.xcassets */,
 				2168DEA71F5D5BA7009BDCCB /* LaunchScreen.storyboard */,
 				2168DEAA1F5D5BA7009BDCCB /* Info.plist */,
@@ -263,8 +287,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2168DE9E1F5D5BA7009BDCCB /* ViewController.swift in Sources */,
+				2168DEDF1F5D79CF009BDCCB /* UserInputViewController.swift in Sources */,
+				2168DEDA1F5D738C009BDCCB /* Article+CoreDataClass.swift in Sources */,
 				2168DEA41F5D5BA7009BDCCB /* CDBApp.xcdatamodeld in Sources */,
+				2168DEDB1F5D738C009BDCCB /* Article+CoreDataProperties.swift in Sources */,
+				2168DED81F5D738C009BDCCB /* UserMO+CoreDataClass.swift in Sources */,
+				2168DED91F5D738C009BDCCB /* UserMO+CoreDataProperties.swift in Sources */,
+				2168DEE31F5D83D8009BDCCB /* FetchDataViewController.swift in Sources */,
 				2168DE9C1F5D5BA7009BDCCB /* AppDelegate.swift in Sources */,
+				2168DEE11F5D79E2009BDCCB /* ArticleInputViewController.swift in Sources */,
+				2168DEDD1F5D7993009BDCCB /* EntryTabViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
